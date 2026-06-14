@@ -1,7 +1,6 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelector("#nav-links");
 const year = document.querySelector("#year");
-const form = document.querySelector("#contact-form");
 const sections = [...document.querySelectorAll("main section[id]")];
 const menuLinks = [...document.querySelectorAll(".nav-links a")];
 const threeModulePromise = import("https://unpkg.com/three@0.165.0/build/three.module.js").catch(() => null);
@@ -81,19 +80,6 @@ const navObserver = new IntersectionObserver(
 );
 
 sections.forEach((section) => navObserver.observe(section));
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const data = new FormData(form);
-  const name = data.get("name");
-  const email = data.get("email");
-  const message = data.get("message");
-  const subject = encodeURIComponent(`Portfolio contact from ${name}`);
-  const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
-
-  window.location.href = `mailto:ojasvagupta2108@gmail.com?subject=${subject}&body=${body}`;
-  form.reset();
-});
 
 const initSpaceBackground = () => {
   const canvas = document.querySelector("#space-bg");

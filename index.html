@@ -389,15 +389,20 @@
             <h2>Contact</h2>
             <p>
               I am open to DevOps, cloud platform, Kubernetes, infrastructure automation, and
-              full-stack engineering opportunities. Send a note and the site will open your email
-              client with the message ready.
+              full-stack engineering opportunities. Send a note and it will be delivered directly
+              to my inbox.
             </p>
             <div class="contact-links">
               <a href="mailto:ojasvagupta2108@gmail.com"><i data-lucide="mail"></i> ojasvagupta2108@gmail.com</a>
               <a href="https://www.linkedin.com/in/ojasva-gupta-14abb41a0" target="_blank" rel="noreferrer"><i data-lucide="network"></i> LinkedIn</a>
               <a href="https://github.com/ojasvagupt" target="_blank" rel="noreferrer"><i data-lucide="code-2"></i> GitHub</a>
             </div>
-            <form class="contact-form" id="contact-form">
+            <form class="contact-form" id="contact-form" action="https://formsubmit.co/ojasvagupta2108@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New portfolio message for Ojasva Gupta" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="https://ojasvagupt.github.io/Port_folio/thank-you.html" />
+              <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden-field" />
               <label>
                 <span>Your name</span>
                 <input type="text" name="name" autocomplete="name" placeholder="What's your name?" required />

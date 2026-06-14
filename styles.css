@@ -1407,6 +1407,18 @@ h1 span {
   border-color: var(--teal);
 }
 
+.contact-form input.hidden-field {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .contact-visual {
   position: relative;
   min-height: 620px;

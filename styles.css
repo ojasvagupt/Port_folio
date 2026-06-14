@@ -81,6 +81,15 @@ textarea {
   font: inherit;
 }
 
+.hidden-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -1396,6 +1405,18 @@ h1 span {
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: var(--teal);
+}
+
+.contact-form input.hidden-field {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .contact-visual {

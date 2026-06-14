@@ -6,7 +6,8 @@ Static portfolio website built from `assets/OjasvaGupta_RESUME.pdf`.
 
 - `index.html` - page structure and portfolio content
 - `styles.css` - responsive dark portfolio styling
-- `script.js` - mobile navigation, scroll reveal, 3D visuals, and contact mailto
+- `script.js` - mobile navigation, scroll reveal, and 3D visuals
+- `thank-you.html` - contact form success page
 - `assets/OjasvaGupta_RESUME.pdf` - downloadable resume
 - `assets/favicon.svg` - browser icon
 
@@ -29,6 +30,6 @@ Open `http://localhost:5500`.
 
 ## Public hosting note
 
-The webpage shows email, LinkedIn, GitHub, and resume download links. The phone
-number is not printed directly on the page, which is safer for a public site,
-but it remains inside the downloadable resume PDF.
+The webpage shows email, LinkedIn, GitHub, and resume download links. The contact
+form posts through FormSubmit so it can work on GitHub Pages without a backend.
+The receiver must approve the first FormSubmit activation email once.

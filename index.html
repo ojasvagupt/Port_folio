@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Ojasva Gupta, DevOps Engineer building cloud infrastructure, Kubernetes platforms, and automated CI/CD pipelines."
+    />
+    <meta name="theme-color" content="#090b1a" />
+    <meta property="og:title" content="Ojasva Gupta | Portfolio" />
+    <meta
+      property="og:description"
+      content="DevOps Engineer with production experience in Azure AKS, Kubernetes, Terraform, Helm, Docker, and CI/CD automation."
+    />
+    <meta property="og:type" content="website" />
+    <title>Ojasva Gupta | Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg?v=navy-cyan-green" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=navy-cyan-green" />
+  </head>
+  <body>
+    <canvas id="space-bg" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Ojasva Gupta home">
+          <span class="brand-mark">OG</span>
+          <span>Ojasva Gupta | DevOps Engineer</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">DevOps Engineer</p>
+            <h1>Hi, I'm <span>Ojasva</span></h1>
+            <p class="hero-tagline">
+              DevOps Engineer building cloud infrastructure, Kubernetes platforms, and automated CI/CD pipelines.
+            </p>
+            <p class="hero-text">
+              I work across Azure AKS, Terraform, Helm, Docker, and deployment automation to
+              migrate production workloads, improve platform reliability, and reduce manual
+              operational effort.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">
+                <i data-lucide="folder-git-2"></i>
+                View Projects
+              </a>
+              <a class="btn secondary" href="assets/OjasvaGupta_RESUME.pdf" target="_blank" rel="noreferrer">
+                <i data-lucide="download"></i>
+                Resume
+              </a>
+            </div>
+            <div class="quick-stats" aria-label="Profile highlights">
+              <div>
+                <strong>10+</strong>
+                <span>Apps Migrated</span>
+              </div>
+              <div>
+                <strong>5+</strong>
+                <span>AKS Clusters</span>
+              </div>
+              <div>
+                <strong>30%</strong>
+                <span>Less Manual Ops</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="computer-stage" aria-label="Animated 3D computer workstation">
+              <canvas id="computer-canvas"></canvas>
+              <div class="code-orbit orbit-one"></div>
+              <div class="code-orbit orbit-two"></div>
+              <div class="screen-caption">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="floating-note note-top">
+              <i data-lucide="cloud-cog"></i>
+              <span>Azure AKS, Terraform</span>
+            </div>
+            <div class="floating-note note-bottom">
+              <i data-lucide="sparkles"></i>
+              <span>Kubernetes, CI/CD</span>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="section-shell" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Introduction</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-layout">
+          <p class="lead reveal">
+            I am a DevOps Engineer with production experience in cloud infrastructure,
+            Kubernetes orchestration, CI/CD pipeline automation, and on-premise to managed cloud
+            migrations. I enjoy building repeatable infrastructure, stable deployment systems, and
+            reliable platforms that help teams ship faster with fewer manual steps.
+          </p>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <i data-lucide="server-cog"></i>
+              <h3>Cloud DevOps</h3>
+              <p>Azure AKS, Docker, Terraform, Helm, CI/CD, and Infrastructure as Code for production systems.</p>
+            </article>
+            <article class="service-card reveal">
+              <i data-lucide="shield-check"></i>
+              <h3>Kubernetes Operations</h3>
+              <p>Cluster operations, Helm charts, namespaces, pod scaling, resource tuning, and availability.</p>
+            </article>
+            <article class="service-card reveal">
+              <i data-lucide="bot"></i>
+              <h3>Infrastructure Automation</h3>
+              <p>Terraform-based provisioning, repeatable cloud setup, and automation that reduces configuration errors.</p>
+            </article>
+            <article class="service-card reveal">
+              <i data-lucide="monitor-smartphone"></i>
+              <h3>Full-Stack Foundations</h3>
+              <p>React, Spring Boot, FastAPI, Django, Tailwind CSS, REST APIs, and responsive frontend delivery.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell" id="experience">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What I have done so far</p>
+          <h2>Work Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i data-lucide="briefcase"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Oct 2024 - Present</span>
+              <h3>DevOps Engineer</h3>
+              <p class="company">Wipro Limited, Client: UBS</p>
+              <p class="role-summary">
+                Supporting production cloud migration and Kubernetes platform operations for UBS,
+                with focus on Azure AKS, Terraform, Helm, GitLab-based deployment workflows, and
+                stable zero-downtime releases.
+              </p>
+              <ul>
+                <li>Migrated 10+ applications from on-premise and dedicated Kubernetes environments to managed Azure Kubernetes Service, improving scalability and reducing infrastructure overhead by 15%.</li>
+                <li>Accelerated deployment cycles by 20% using UBS Deploy and Kubernetes Deployer, creating a more reliable GitLab-based release path for production workloads.</li>
+                <li>Automated cloud infrastructure provisioning across 5+ clusters with Terraform and Infrastructure as Code practices, reducing manual configuration errors and operational effort by 30%.</li>
+                <li>Managed Kubernetes cluster operations including Helm charts, namespaces, pod scaling, resource configuration, workload validation, and availability-focused troubleshooting.</li>
+                <li>Collaborated with application and platform teams during migration planning, deployment verification, issue triage, and post-release monitoring to keep services stable.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i data-lucide="package-check"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Jul 2024 - Sep 2024</span>
+              <h3>Engineer Trainee</h3>
+              <p class="company">Wipro Limited</p>
+              <p class="role-summary">
+                Completed intensive technical training across DevOps tooling, cloud fundamentals,
+                Java, Spring Boot, and enterprise software practices before moving into client
+                delivery work.
+              </p>
+              <ul>
+                <li>Built a practical foundation in cloud concepts, deployment workflows, DevOps tools, and enterprise engineering standards.</li>
+                <li>Strengthened backend development knowledge through Java and Spring Boot training, including REST APIs and application structure.</li>
+                <li>Practiced collaborative delivery habits such as documentation, code review readiness, issue tracking, and structured technical communication.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"><i data-lucide="laptop"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2024 - Jun 2024</span>
+              <h3>Software Engineer</h3>
+              <p class="company">ThinkSaga</p>
+              <p class="role-summary">
+                Delivered production frontend work for RecruitKart with React and Tailwind CSS,
+                focusing on responsive UI implementation, performance improvements, and
+                cross-browser reliability.
+              </p>
+              <ul>
+                <li>Built a fully responsive production-ready frontend for recruitkart.com using React and Tailwind CSS.</li>
+                <li>Resolved cross-browser compatibility issues and improved the user experience across laptop, tablet, and mobile layouts.</li>
+                <li>Worked on interface polish, component structure, and performance-focused fixes to make the product feel smoother in real use.</li>
+                <li>Collaborated with stakeholders to translate product requirements into clean, maintainable frontend screens.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-group reveal">
+            <h3>Languages</h3>
+            <div class="chips">
+              <span>C++</span><span>Python</span><span>Java</span><span>SQL</span>
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Cloud, DevOps, Systems</h3>
+            <div class="chips">
+              <span>Microsoft Azure</span><span>AKS</span><span>Kubernetes</span><span>Docker</span>
+              <span>Terraform</span><span>Helm</span><span>CI/CD</span><span>IaC</span><span>Linux</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Frameworks and Libraries</h3>
+            <div class="chips">
+              <span>React</span><span>Spring Boot</span><span>FastAPI</span><span>Django</span>
+              <span>Bootstrap</span><span>Tailwind CSS</span><span>Zustand</span><span>PydanticAI</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tools and Fundamentals</h3>
+            <div class="chips">
+              <span>Git</span><span>GitHub</span><span>GitLab</span><span>MySQL</span><span>Confluence</span>
+              <span>Ollama</span><span>REST APIs</span><span>DSA</span><span>DBMS</span><span>OOP</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">My work</p>
+          <h2>Projects.</h2>
+          <p class="section-note">
+            Following projects showcase my cloud, DevOps, full-stack, and AI engineering work.
+            Each card highlights the problem area, core implementation, and useful links.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-trip featured reveal">
+            <div class="project-media" aria-label="AI Trip Planner project preview">
+              <div class="mockup trip-mockup">
+                <span class="route-dot dot-a"></span>
+                <span class="route-dot dot-b"></span>
+                <span class="route-dot dot-c"></span>
+                <div class="map-card map-card-a">Mumbai</div>
+                <div class="map-card map-card-b">Goa</div>
+                <div class="itinerary-panel">
+                  <strong>AI Itinerary</strong>
+                  <span>Budget optimized</span>
+                  <span>Live replanning</span>
+                </div>
+              </div>
+              <a class="project-source" href="https://github.com/ojasvagupt" target="_blank" rel="noreferrer" aria-label="Open Ojasva Gupta GitHub profile">
+                <i data-lucide="code-2"></i>
+              </a>
+            </div>
+            <h3>Agentic AI Trip Planner</h3>
+            <p>
+              AI-powered itinerary generation system with collaborative planning, dynamic
+              replanning, and schema-constrained agent workflows.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>React</span><span>FastAPI</span><span>PydanticAI</span><span>Ollama</span>
+            </div>
+          </article>
+
+          <article class="project-card project-blog reveal">
+            <div class="project-media" aria-label="Student Study Portal project preview">
+              <div class="mockup blog-mockup">
+                <div class="browser-bar"><span></span><span></span><span></span></div>
+                <div class="article-hero"></div>
+                <div class="article-lines">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="article-card">Study Dashboard</div>
+              </div>
+              <a class="project-source" href="https://github.com/ojasvagupt/studyportal" target="_blank" rel="noreferrer" aria-label="Open Student Study Portal source code">
+                <i data-lucide="code-2"></i>
+              </a>
+            </div>
+            <h3>Student Study Portal</h3>
+            <p>
+              Django-based study platform with secure authentication, personalized dashboards,
+              and a responsive Bootstrap interface for students.
+            </p>
+            <div class="project-tags"><span>Python</span><span>Django</span><span>HTML/CSS</span><span>Bootstrap</span></div>
+          </article>
+
+          <article class="project-card project-movapi reveal">
+            <div class="project-media" aria-label="RecruitKart frontend project preview">
+              <div class="mockup movie-mockup">
+                <div class="movie-screen">
+                  <span class="play-button"></span>
+                </div>
+                <div class="movie-row"><span></span><span></span><span></span></div>
+                <div class="api-chip">RecruitKart</div>
+              </div>
+              <a class="project-source" href="https://recruitkart.com/" target="_blank" rel="noreferrer" aria-label="Open RecruitKart website">
+                <i data-lucide="code-2"></i>
+              </a>
+            </div>
+            <h3>RecruitKart Frontend</h3>
+            <p>
+              Production-ready React and Tailwind CSS frontend with responsive layouts,
+              cross-browser fixes, and performance-focused interface improvements.
+            </p>
+            <div class="project-tags"><span>React</span><span>Tailwind CSS</span><span>Responsive UI</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell" id="education">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Qualification and recognition</p>
+          <h2>Education & Certifications</h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <i data-lucide="school"></i>
+            <div>
+              <span>2019 - 2023</span>
+              <h3>National Institute of Technology Warangal</h3>
+              <p>Bachelor of Technology in Chemical Engineering</p>
+              <p>GPA: 7.38 | Warangal, India</p>
+            </div>
+          </article>
+          <article class="education-card reveal">
+            <i data-lucide="badge-check"></i>
+            <div>
+              <span>Cloud and engineering</span>
+              <h3>Certifications</h3>
+              <p>Microsoft Certified: Azure Fundamentals (AZ-900)</p>
+              <p>Azure Kubernetes Services with Azure DevOps and Terraform</p>
+              <p>C++ Programming and Data Structures & Algorithms</p>
+            </div>
+          </article>
+          <article class="education-card reveal">
+            <i data-lucide="trophy"></i>
+            <div>
+              <span>Awards</span>
+              <h3>Honors</h3>
+              <p>Victory League Award - Wipro, 2025</p>
+              <p>Certificate of Appreciation - Counsellit</p>
+            </div>
+          </article>
+          <article class="education-card reveal">
+            <i data-lucide="users"></i>
+            <div>
+              <span>2020 - 2021</span>
+              <h3>Executive Member, IIChE NIT Warangal</h3>
+              <p>Coordinated workshops, competitions, and Chem-Star event activities for the student community.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact">
+        <div class="contact-panel reveal">
+          <div class="contact-card">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Contact</h2>
+            <p>
+              I am open to DevOps, cloud platform, Kubernetes, infrastructure automation, and
+              full-stack engineering opportunities. Send a note and the site will open your email
+              client with the message ready.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:ojasvagupta2108@gmail.com"><i data-lucide="mail"></i> ojasvagupta2108@gmail.com</a>
+              <a href="https://www.linkedin.com/in/ojasva-gupta-14abb41a0" target="_blank" rel="noreferrer"><i data-lucide="network"></i> LinkedIn</a>
+              <a href="https://github.com/ojasvagupt" target="_blank" rel="noreferrer"><i data-lucide="code-2"></i> GitHub</a>
+            </div>
+            <form class="contact-form" id="contact-form">
+              <label>
+                <span>Your name</span>
+                <input type="text" name="name" autocomplete="name" placeholder="What's your name?" required />
+              </label>
+              <label>
+                <span>Your email</span>
+                <input type="email" name="email" autocomplete="email" placeholder="What's your email?" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="6" placeholder="What do you want to say?" required></textarea>
+              </label>
+              <button class="btn primary" type="submit">
+                <i data-lucide="send"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact-visual" aria-label="Animated 3D globe with orbital ribbons">
+            <canvas id="contact-globe-canvas"></canvas>
+            <div class="space-badge badge-cloud"><i data-lucide="cloud"></i><span>Azure AKS</span></div>
+            <div class="space-badge badge-ai"><i data-lucide="sparkles"></i><span>IaC + CI/CD</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ojasva Gupta. Built for GitHub Pages.</p>
+      <a href="#home" aria-label="Back to top"><i data-lucide="arrow-up"></i></a>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script type="module" src="script.js?v=navy-cyan-green"></script>
+  </body>
+</html>
